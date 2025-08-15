@@ -15,12 +15,12 @@ sphinx:
    configuration: source/conf.py
 
 format:
-  pdf
+  -pdf
 
 python:
   install:
     - requirements: requirements.txt
-    - version: "3.11"
+    
 
 # Optionally, but recommended,
 # declare the Python requirements required to build your documentation
